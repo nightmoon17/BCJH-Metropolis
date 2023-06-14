@@ -45,7 +45,7 @@ void toolEquipped(Chef *chef) {
         chef->tool = NO_TOOL;          // 不允许装备其他厨具
     }
     if (chef->name == "姒露") {              // 金锄头
-        skill->abilityBuff.bake += 30(150);              // 全技法+30
+        skill->abilityBuff.bake += 30;              // 全技法+30
         skill->abilityBuff.fry += 25; // 蔬菜售价+15%
         chef->tool = NO_TOOL;                // 不允许装备其他厨具
     }
